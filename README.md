@@ -22,7 +22,7 @@
 ---
 
 <p align="center">
-  <img src="assets/iris-experiments-hero.png" width="100%" />
+  <img src="assets/iris-experiments-hero.PNG" width="100%" />
 </p>
 
 ---
@@ -144,10 +144,6 @@ It changes based on:
 - data source  
 - problem definition  
 
-<p align="center">
-  <img src="assets/iris-experiments-comparison.png" width="90%" />
-</p>
-
 The same model can:
 - perform well in one modality and fail in another  
 - generalize poorly across domains  
@@ -156,6 +152,8 @@ The same model can:
 These are not edge cases.
 
 They are expected outcomes when models interact with real-world variability.
+
+As experiments are published, this repository will document how these factors influence real-world system behavior.
 
 ---
 
