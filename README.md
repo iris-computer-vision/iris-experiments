@@ -40,6 +40,10 @@
 
 ---
 
+> Experiments are published as they are completed to reflect real-world findings, not staged results.
+
+---
+
 <!-- ===================================================== -->
 <!--                 WHAT THIS IS                          -->
 <!-- ===================================================== -->
@@ -78,37 +82,52 @@ IRIS Experiments focuses on:
 ---
 
 <!-- ===================================================== -->
-<!--               FEATURED EXPERIMENTS                    -->
+<!--                 CURRENT STATUS                        -->
 <!-- ===================================================== -->
 
-## Featured Experiments
+## Current Status
 
-<table>
-  <tr>
-    <th>Experiment</th>
-    <th>Focus</th>
-    <th>Question</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td><strong>EO vs IR Detection</strong></td>
-    <td>Cross-Condition</td>
-    <td>Which modality produces more reliable detections?</td>
-    <td><a href="#">View</a></td>
-  </tr>
-  <tr>
-    <td><strong>Cross-Modal Transfer</strong></td>
-    <td>Domain Shift</td>
-    <td>How well does an EO-trained model perform on IR data?</td>
-    <td><a href="#">View</a></td>
-  </tr>
-  <tr>
-    <td><strong>Ontology Granularity</strong></td>
-    <td>Problem Definition</td>
-    <td>How does class specificity impact performance and generalization?</td>
-    <td><a href="#">View</a></td>
-  </tr>
-</table>
+This repository is actively being developed.
+
+Initial experiment tracks are being defined and will be published as they are completed.
+
+The goal is to build a set of experiments that reflect real-world challenges, not idealized scenarios.
+
+---
+
+<!-- ===================================================== -->
+<!--               INITIAL DIRECTION                       -->
+<!-- ===================================================== -->
+
+## Initial Direction
+
+Current work is focused on understanding how model behavior changes across:
+
+### Cross-Condition
+
+- EO vs IR performance  
+- lighting and visibility changes  
+- distance and object scale  
+
+---
+
+### Cross-Domain
+
+- applying EO-trained models to IR data  
+- generalization across environments  
+- performance under domain shift  
+
+---
+
+### Problem Definition
+
+- ontology granularity (broad vs specific classes)  
+- contextual classes and their impact on false positives  
+- how class design influences detection behavior  
+
+---
+
+These themes are already reflected in benchmark comparisons and will be formalized into structured experiments.
 
 ---
 
