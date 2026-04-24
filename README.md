@@ -224,11 +224,11 @@ IRIS is structured as a lifecycle for understanding and deploying computer visio
 
 - **IRIS Benchmark**  
   Structured comparison and evaluation  
-  → [Link]
+  → [Benchmarks(https://github.com/iris-computer-vision/iris-benchmark)]
 
 - **IRIS Model Zoo**  
   Deployment-ready models  
-  → [Link]
+  → [ModelZoo(https://github.com/iris-computer-vision/iris-model-zoo/)]
 
 ---
 
